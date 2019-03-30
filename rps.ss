@@ -7,16 +7,13 @@
 ;; using a functional programming language
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; CLASS-DISTRIBUTED CODE
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; readLine() --> line (as String) ;;
 ;; Read one line from standard input, not including the newline
 ;; but eliminating it. This is wrapper for the recursive method
 ;; that does the work (readLoop). ;;
 (define (readLine)
 (readLoop (read-char (current-input-port)) '())) ;do wait for one char
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; readLoop(currentCharacter line) --> line (as String) ;;
 ;; This recursive method reads a character at a time from the
@@ -28,12 +25,6 @@
 (cond
 ((char=? #\newline curChar) (list->string line)) (else (readLoop (read-char (current-input-port))
 (append line (list curChar))))))
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; STUDENT CODE BEGINS HERE
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
-
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Compares inputs plrInput and cpuInput to decide who beat who
