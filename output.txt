@@ -1,48 +1,0 @@
-?- game. 
-Welcome to ROCK PAPER SCISSORS game 
------------------------------------ 
-
- Please enter your choice: "Rock", "Paper", or "Scissors"   rock 
-You entered ROCK   Computer chose ROCK   Winner is TIE 
-
- Please enter your choice: "Rock", "Paper", or "Scissors"   pap 
-You entered PAPER   Computer chose ROCK   Winner is PLAYER 
-
- Please enter your choice: "Rock", "Paper", or "Scissors"   sc 
-You entered SCISSORS   Computer chose ROCK   Winner is COMPUTER 
-
- Please enter your choice: "Rock", "Paper", or "Scissors"    
-|:  
-Not sure of your selection. Try again.
- Please enter your choice: "Rock", "Paper", or "Scissors"   rdkjgnjnr 
-You entered ROCK   Computer chose PAPER   Winner is COMPUTER 
-
- Please enter your choice: "Rock", "Paper", or "Scissors"   pksjnfselfnes 
-You entered PAPER   Computer chose ROCK   Winner is PLAYER 
-
- Please enter your choice: "Rock", "Paper", or "Scissors"   sdkjgndkjnr 
-You entered SCISSORS   Computer chose PAPER   Winner is PLAYER 
-
- Please enter your choice: "Rock", "Paper", or "Scissors"   dkjfnglgneslifseifjesifsf 
-Not sure of your selection. Try again.
- Please enter your choice: "Rock", "Paper", or "Scissors"   sroighsogsindsklvnsldknrsdv 
-You entered SCISSORS   Computer chose ROCK   Winner is COMPUTER 
-
- Please enter your choice: "Rock", "Paper", or "Scissors"   SDGSRERTHTBSB 
-You entered SCISSORS   Computer chose ROCK   Winner is COMPUTER 
-
- Please enter your choice: "Rock", "Paper", or "Scissors"   GYJJYJFTHFJFTHTYJ 
-Not sure of your selection. Try again.
- Please enter your choice: "Rock", "Paper", or "Scissors"    
-|: r 
-Not sure of your selection. Try again.
- Please enter your choice: "Rock", "Paper", or "Scissors"   R 
-You entered ROCK   Computer chose ROCK   Winner is TIE 
-
- Please enter your choice: "Rock", "Paper", or "Scissors"   P 
-You entered PAPER   Computer chose SCISSORS   Winner is COMPUTER   
-
-
-Game Over! You won 3 rounds, computer won 5 rounds, tied 2 rounds 
-Champion: COMPUTER 
-true 
